@@ -44,231 +44,102 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "C" %}
-                        <li><a href="/categories/c" class="">C ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
 
-        <span class="nav__sub-title">Coding Test</span>
+        <span class="nav__sub-title">Network</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Algorithm" %}
-                        <li><a href="/categories/algorithm" class="">알고리즘 구현 (with C++) ({{category[1].size}})</a></li>
+                        <li><a href="/categories/algorithm" class="">네트워크({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Programmers" %}
-                        <li><a href="/categories/programmers" class="">프로그래머스 ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "BOJ" %}
-                        <li><a href="/categories/boj" class="">백준 ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "Coding Test Lesson" %}
-                        <li><a href="/categories/coding-test-lesson" class="">코딩 테스트 강의 ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "CodeUp" %}
-                        <li><a href="/categories/codeup" class="">코드업 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/programmers" class="">네트워크 실습({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
 
-        <span class="nav__sub-title">Unity</span>
+        <span class="nav__sub-title">DevOps</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Unity Lesson 1" %}
-                        <li><a href="/categories/unity-lesson-1" class="">유니티 강의1 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/unity-lesson-1" class="">가상화({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Unity Lesson 2" %}
-                        <li><a href="/categories/unity-lesson-2" class="">유니티 강의2 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/unity-lesson-2" class="">IaC({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Unity Lesson 3" %}
-                        <li><a href="/categories/unity-lesson-3" class="">유니티 강의3 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/unity-lesson-3" class="">PXE,Kickstart({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Unity Lesson 4" %}
-                        <li><a href="/categories/unity-lesson-4" class="">유니티 강의4 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/unity-lesson-4" class="">Docker({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "UnityDocs" %}
-                        <li><a href="/categories/unity-docs" class="">내 유니티 문서 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/unity-docs" class="">Kubernetes({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
 
-        <span class="nav__sub-title">UE4</span>
+        <span class="nav__sub-title">Cloud</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "UE4 Lesson 1" %}
-                        <li><a href="/categories/ue4-lesson-1" class="">언리얼 블루프린트 강의 1 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/ue4-lesson-1" class="">OpenStack({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "UE4 Lesson 3" %}
-                        <li><a href="/categories/ue4-lesson-3" class="">언리얼 블루프린트 강의 2 ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "UE4Cpp1" %}
-                        <li><a href="/categories/udemy-ue4-1" class="">언리얼 C++ 강의 1 ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "UE4 Lesson 2" %}
-                        <li><a href="/categories/ue4-lesson-2" class="">언리얼 C++ 책 ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "UE4Docs" %}
-                        <li><a href="/categories/ue4-docs" class="">내 언리얼 문서 ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "UE4error" %}
-                        <li><a href="/categories/ue4error" class="">에러 메모 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/ue4-lesson-3" class="">vSphere({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
         
-        <span class="nav__sub-title">CS</span>
+        <span class="nav__sub-title">정보보안기사</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Algorithm Lesson 1" %}
-                        <li><a href="/categories/algorithm-lesson-1" class="">알고리즘 강의1 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/algorithm-lesson-1" class="">시스템 보안({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Algorithm Lesson 2" %}
-                        <li><a href="/categories/algorithm-lesson-2" class="">알고리즘 강의2 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/algorithm-lesson-2" class="">네트워크 보안({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "DataStructure" %}
-                        <li><a href="/categories/data-structure" class="">C 자료구조 강의 1({{category[1].size}})</a></li>
+                        <li><a href="/categories/data-structure" class="">애플리케이션 보안({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "DataStructure2" %}
-                        <li><a href="/categories/data-structure2" class="">C 자료구조 강의 2({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "Network" %}
-                        <li><a href="/categories/network" class="">네트워크 ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-        <span class="nav__sub-title">Server</span>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "Server1" %}
-                        <li><a href="/categories/server1" class="">C# 유니티 서버 ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-        <span class="nav__sub-title">DB</span>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "DB" %}
-                        <li><a href="/categories/db" class="">MySQL ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "Programmers SQL" %}
-                        <li><a href="/categories/programmers-sql" class="">프로그래머스 SQL ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-        <span class="nav__sub-title">etc</span>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "Blog" %}
-                        <li><a href="/categories/blog" class="">Blog Dev ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "Design Pattern" %}
-                        <li><a href="/categories/design-pattern" class="">디자인 패턴 ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "Blender" %}
-                        <li><a href="/categories/blender" class="">Blender ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "Git" %}
-                        <li><a href="/categories/git" class="">Git & Github ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "VS" %}
-                        <li><a href="/categories/vs" class="">비주얼 스튜디오 ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "Bitcoin" %}
-                        <li><a href="/categories/bitcoin" class="">블록체인 암호화폐 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/data-structure2" class="">침해사고 분석/대응({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
