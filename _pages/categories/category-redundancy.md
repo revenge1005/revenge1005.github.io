@@ -1,5 +1,5 @@
 ---
-title: "redundancy"
+title: "Redundancy"
 layout: archive
 permalink: categories/redundancy
 author_profile: true

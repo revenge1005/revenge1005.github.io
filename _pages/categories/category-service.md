@@ -1,5 +1,5 @@
 ---
-title: "service"
+title: "Service"
 layout: archive
 permalink: categories/service
 author_profile: true
