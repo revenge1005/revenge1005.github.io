@@ -114,32 +114,32 @@
                 {% endfor %}
             </ul>
         
-        <span class="nav__sub-title">정보보안기사</span>
+        <span class="nav__sub-title">Security</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Algorithm Lesson 1" %}
-                        <li><a href="/categories/algorithm-lesson-1" class="">시스템 보안({{category[1].size}})</a></li>
+                        <li><a href="/categories/algorithm-lesson-1" class="">정보보안기사 - 시스템 보안({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Algorithm Lesson 2" %}
-                        <li><a href="/categories/algorithm-lesson-2" class="">네트워크 보안({{category[1].size}})</a></li>
+                        <li><a href="/categories/algorithm-lesson-2" class="">정보보안기사 - 네트워크 보안({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "DataStructure" %}
-                        <li><a href="/categories/data-structure" class="">애플리케이션 보안({{category[1].size}})</a></li>
+                        <li><a href="/categories/data-structure" class="">정보보안기사 - 애플리케이션 보안({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "DataStructure2" %}
-                        <li><a href="/categories/data-structure2" class="">침해사고 분석/대응({{category[1].size}})</a></li>
+                        <li><a href="/categories/data-structure2" class="">정보보안기사 - 침해사고 분석/대응({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
