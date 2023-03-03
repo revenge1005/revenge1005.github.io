@@ -10,5 +10,5 @@ sidebar_main: true
 
 ***
 
-{% assign posts = site.categories.Server.linux %}
+{% assign posts = site.categories.LINUX %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}
