@@ -11,6 +11,13 @@
         <span class="nav__sub-title">Server</span>
             <ul>
                 {% for category in site.categories %}
+                    {% if category[0] == "JAVA" %}
+                        <li><a href="/categories/java" class="">JAVA ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
                     {% if category[0] == "Windows" %}
                         <li><a href="/categories/windows" class="">Windows({{category[1].size}})</a></li>
                     {% endif %}
