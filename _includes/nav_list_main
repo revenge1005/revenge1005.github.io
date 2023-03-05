@@ -34,6 +34,13 @@
         <span class="nav__sub-title">DevOps</span>
             <ul>
                 {% for category in site.categories %}
+                    {% if category[0] == "VIRTUALIZATION" %}
+                        <li><a href="/categories/virtualization" class="">가상화 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
                     {% if category[0] == "KICKSTART" %}
                         <li><a href="/categories/kickstart" class="">KICKSTART ({{category[1].size}})</a></li>
                     {% endif %}
