@@ -42,7 +42,7 @@ table th:nth-of-type(4) {
 |자동 설치 가능한 OS|A. CentOS 7 <br> B. Ubuntu 16.04 / 18.04 <br> C. openSUSE 15.01 <br> D. Windows 10|
 
 ![그림1](https://user-images.githubusercontent.com/42735894/222966661-21f2464e-b638-4e99-89cf-25453ea276dd.png){: width="100%" height="100%"}
-![그림2](https://user-images.githubusercontent.com/42735894/222966667-6fa16c5e-5c16-45e9-8d5f-6ce7ecb6d633.png){: width="100%" height="100%"}
+![그림2](https://user-images.githubusercontent.com/42735894/222967136-d958b421-7bbd-4f6d-babf-a8b75ca05658.png){: width="100%" height="100%"}
 ![그림3](https://user-images.githubusercontent.com/42735894/222966674-aaf5e427-f6d9-4dad-9e9f-b854188a9450.png){: width="100%" height="100%"}
 
 <br>
