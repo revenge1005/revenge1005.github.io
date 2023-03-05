@@ -49,4 +49,4 @@ table th:nth-of-type(4) {
 
 ## 🔔 결과 확인
 
-<iframe width="956" height="538" src="https://youtu.be/-HDx1V0CN5g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="1280" height="745" src="https://www.youtube.com/embed/-HDx1V0CN5g" title="PXE boot - Automatic OS Installation (CentOS7, Ubuntu, openSUSE, Windows10)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
