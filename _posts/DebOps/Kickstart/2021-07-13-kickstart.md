@@ -78,7 +78,7 @@ table th:nth-of-type(4) {
 |③|클라이언트는 서버로 부터 받은 정보를 가지고 Request 합니다.|
 |④|서버는 ACK 패킷을 통해서 최종적으로 IP 정보와 TFTP 서버 정보를 함께 보냅니다.|
 
-![weqeqweqw2e](https://user-images.githubusercontent.com/42735894/222965690-25f21905-e050-4e0b-9ea5-7dc127b5d709.PNG){: width="100%" height="100%"}
+![weqeqweqw2e](https://user-images.githubusercontent.com/42735894/222965690-25f21905-e050-4e0b-9ea5-7dc127b5d709.PNG){: .align-center, width="50%", height="50%}
 
 |구성요소|설명|
 |:---:|---|
