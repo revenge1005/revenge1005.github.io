@@ -31,6 +31,15 @@
                 {% endfor %}
             </ul>
 
+        <span class="nav__sub-title">DevOps</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "KICKSTART" %}
+                        <li><a href="/categories/kickstart" class="">KICKSTART ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+
       </li>
       <li>	
             <br>      
