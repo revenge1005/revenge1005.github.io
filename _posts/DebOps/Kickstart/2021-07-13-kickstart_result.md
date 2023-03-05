@@ -46,4 +46,8 @@ table th:nth-of-type(4) {
 ![그림2](https://user-images.githubusercontent.com/42735894/222966667-6fa16c5e-5c16-45e9-8d5f-6ce7ecb6d633.png){: width="100%" height="100%"}
 ![그림3](https://user-images.githubusercontent.com/42735894/222966674-aaf5e427-f6d9-4dad-9e9f-b854188a9450.png){: width="100%" height="100%"}
 
+<br>
+
+### PXE 부팅 메뉴 / PXE  로딩 및 OS 설치 시작 / PXE 서버 로그
+
 <iframe width="956" height="538" src="https://youtu.be/-HDx1V0CN5g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
