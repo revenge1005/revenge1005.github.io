@@ -1,5 +1,5 @@
 ---
-title:  "[Kickstart] PXE / Kickstart 이란?" 
+title:  "[Kickstart] (개인 프로젝트) 만능 PXE 서버 구축 - OS 자동 설치" 
 
 categories:
   - KICKSTART
@@ -12,7 +12,7 @@ toc_sticky: true
 date: 2021-07-13
 last_modified_at: 2021-07-13
 ---
-# [Kickstart] PXE / Kickstart 이란?
+# [Kickstart] (개인 프로젝트) 만능 PXE 서버 구축 - OS 자동 설치
 ---
 
 <style>
@@ -33,9 +33,7 @@ table th:nth-of-type(4) {
 }
 </style>
 
-## 🔔 [Kickstart] (개인 프로젝트) 만능 PXE 서버 구축 - OS 자동 설치
-
-### PXE 부팅 메뉴 / PXE  로딩 및 OS 설치 시작 / PXE 서버 로그
+## 🔔 PXE 부팅 메뉴 / PXE  로딩 및 OS 설치 시작 / PXE 서버 로그
 
 |:---:|---|
 |진행 기간|2021.07.09  ~  07.13|
@@ -48,6 +46,6 @@ table th:nth-of-type(4) {
 
 <br>
 
-### PXE 부팅 메뉴 / PXE  로딩 및 OS 설치 시작 / PXE 서버 로그
+## 🔔 결과 확인
 
 <iframe width="956" height="538" src="https://youtu.be/-HDx1V0CN5g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
