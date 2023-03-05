@@ -2,7 +2,7 @@
 title:  "[Kickstart] PXE / Kickstart 이란?" 
 
 categories:
-  - kickstart
+  - KICKSTART
 tags:
   - [kickstart]
 
