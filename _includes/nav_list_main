@@ -53,6 +53,13 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "ANSIBLE" %}
+                        <li><a href="/categories/ansible" class="">Ansible ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
 
       </li>
       <li>	
