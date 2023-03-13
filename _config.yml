@@ -108,7 +108,7 @@ author:
       icon: "fab fa-fw fa-youtube"
       url: "https://www.youtube.com/@c.s.h684/featured"
     - label: "Naver Blog"
-      icon: "fas fa-fw fa-link"
+      icon: "fas fa-solid fa-link"
       url: "https://blog.naver.com/revenge1005"  
     #- label: "Instagram"
     #  icon: "fab fa-fw fa-instagram"
