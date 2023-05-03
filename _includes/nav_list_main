@@ -33,7 +33,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "BASH" %}
-                        <li><a href="/categories/bash" class="">쉘 스크립트({{category[1].size}})</a></li>
+                        <li><a href="/categories/bash" class="">Shell({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
