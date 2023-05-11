@@ -32,15 +32,15 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "BASH" %}
-                        <li><a href="/categories/bash" class="">Shell({{category[1].size}})</a></li>
+                    {% if category[0] == "LINUX_NETWORK" %}
+                        <li><a href="/categories/linux_network" class="">Linux Network({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "LINUX_NETWORK" %}
-                        <li><a href="/categories/linux_network" class="">Linux Network({{category[1].size}})</a></li>
+                    {% if category[0] == "BASH" %}
+                        <li><a href="/categories/bash" class="">Shell({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
