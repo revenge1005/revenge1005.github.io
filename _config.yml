@@ -95,12 +95,12 @@ analytics:
 author:
   name             : "revenge1005 🧗"
   avatar           : "https://user-images.githubusercontent.com/42735894/222974299-7b742ec3-9c6f-4463-b4f7-2729ff868c49.png"
-  bio              : "숨셔"
+#  bio              : "숨셔"
   #location         : "Seoul, South Korea"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:revenge1005@naver.com"
+    #- label: "Email"
+    #  icon: "fas fa-fw fa-envelope-square"
+    #  url: "mailto:revenge1005@naver.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/revenge1005"
