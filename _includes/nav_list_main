@@ -18,6 +18,13 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
+                    {% if category[0] == "UBUNTU" %}
+                        <li><a href="/categories/ubuntu" class="">UBUNTU ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
                     {% if category[0] == "WINDOWS" %}
                         <li><a href="/categories/windows" class="">Windows({{category[1].size}})</a></li>
                     {% endif %}
