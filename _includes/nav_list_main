@@ -12,14 +12,14 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "ROCKY" %}
-                        <li><a href="/categories/rocky" class="">ROCKY ({{category[1].size}})</a></li>
+                        <li><a href="/categories/rocky" class="">ROCKY Linux ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "UBUNTU" %}
-                        <li><a href="/categories/ubuntu" class="">UBUNTU ({{category[1].size}})</a></li>
+                        <li><a href="/categories/ubuntu" class="">Ubuntu ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
