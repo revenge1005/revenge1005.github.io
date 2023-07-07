@@ -51,6 +51,13 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "SYS_MGMT" %}
+                        <li><a href="/categories/sys_mgmt" class="">시스템 관리({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
 
         <span class="nav__sub-title">DevOps</span>
             <ul>
