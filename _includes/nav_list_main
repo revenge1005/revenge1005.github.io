@@ -18,6 +18,13 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
+                    {% if category[0] == "CENTOS" %}
+                        <li><a href="/categories/centos" class="">CentOS Stream Linux ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
                     {% if category[0] == "UBUNTU" %}
                         <li><a href="/categories/ubuntu" class="">Ubuntu ({{category[1].size}})</a></li>
                     {% endif %}
