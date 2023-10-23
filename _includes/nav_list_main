@@ -19,7 +19,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "CENTOS" %}
-                        <li><a href="/categories/centos" class="">CentOS Stream Linux ({{category[1].size}})</a></li>
+                        <li><a href="/categories/centos" class="">CentOS Stream ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
