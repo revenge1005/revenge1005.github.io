@@ -80,6 +80,29 @@
                 {% endfor %}
             </ul>
 
+        <span class="nav__sub-title">Cloud Computing</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "CLOUD" %}
+                        <li><a href="/categories/cloud" class="">Cloud 이론 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "DOCKER" %}
+                        <li><a href="/categories/docker" class="">Docker 연습 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "KUBERNETES" %}
+                        <li><a href="/categories/kubernetes" class="">Kubernetes 연습 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+
         <span class="nav__sub-title">DevOps</span>
             <ul>
                 {% for category in site.categories %}
@@ -106,20 +129,6 @@
                 {% for category in site.categories %}
                     {% if category[0] == "ANSIBLE" %}
                         <li><a href="/categories/ansible" class="">Ansible ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "DOCKER" %}
-                        <li><a href="/categories/docker" class="">Docker ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "KUBERNETES" %}
-                        <li><a href="/categories/kubernetes" class="">Kubernetes ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
