@@ -83,8 +83,15 @@
         <span class="nav__sub-title">Cloud Computing</span>
             <ul>
                 {% for category in site.categories %}
+                    {% if category[0] == "VIRTUALIZATION" %}
+                        <li><a href="/categories/virtualization" class="">가상화 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
                     {% if category[0] == "CLOUD" %}
-                        <li><a href="/categories/cloud" class="">Cloud 이론 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/cloud" class="">Cloud Computing ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -104,13 +111,6 @@
             </ul>
 
         <span class="nav__sub-title">DevOps</span>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "VIRTUALIZATION" %}
-                        <li><a href="/categories/virtualization" class="">가상화 ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "KICKSTART" %}
