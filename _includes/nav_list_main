@@ -81,7 +81,7 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "REDUNDANCY" %}
+                    {% if category[0] == "NGINX" %}
                         <li><a href="/categories/nginx" class="">Nginx({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
